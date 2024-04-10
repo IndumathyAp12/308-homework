@@ -32,3 +32,8 @@ if (n3 < 25) {
 if (n4 < 25) {
     console.log(" n4 is less than 25"); //true
 }
+if (n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25) {
+    console.log("All four numbers are valid according to the given criteria") // true
+}
+
+// Part-2 Practical Math
