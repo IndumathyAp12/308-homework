@@ -85,8 +85,9 @@ const Time2 = 25;
 const Time3 = 20;
 
 const BestTime = Time1 > Time2 && Time2 > Time3;
-console.log(`Efficient Time: ${Time3}`); // Time 3 is efficient
+console.log(`Efficient Time: ${Time3}`); // Budget 3 is not efficient
 
- 
+ const BestSpeed = speed1 < speed2 && speed1 < speed3;
+ console.log(`Efficinet speed : ${speed2}`); // Speed 2 is efficient
  
  
