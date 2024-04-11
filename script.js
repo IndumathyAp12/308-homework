@@ -70,7 +70,7 @@ console.log(TotalDist / speed2); //25
 //scenario 2: let speed2 = 75; TotalDist =1500;
 console.log(TotalDist / speed3); //20
 
-//Compare the results when traveling at an average of 55, 60, and 75 miles per hour.
+
 // Which makes the most sense for the trip?
 
 const Budget1 = 150;
@@ -88,9 +88,18 @@ if ( Budget3 <= Budget) {
 }
 
 // when travelled at speed 55, budget is 150 so to calculate efficiency of this trip 
-console.log( Budget1 / speed1); // price per gallon =2.72
+console.log( Budget1 / speed1); // price per gallon =2.727
 // when travelled at speed 60 , budget is 160.71
 console.log(Budget2 / speed2); // price per gallon =2.678
 //when travelled at speed 75, budget is 195.63
 console.log(Budget3 / speed3); // price per gallon = 2.608
 
+
+//Compare the results when traveling at an average of 55, 60, and 75 miles per hour. 
+//Which makes the most sense for the trip?
+console.log( Budget1 / speed1 || Budget2 / speed2 || Budget3 / speed3);//2.727
+let price = 2.727
+//Log the results of your calculations using string concatenation or template literals.
+
+const efficientTrip = `${speed1} ${price}`;
+console.log(efficientTrip); // 55 2.727 
