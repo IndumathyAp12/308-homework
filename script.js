@@ -32,8 +32,46 @@ if (n3 < 25) {
 if (n4 < 25) {
     console.log(" n4 is less than 25"); //true
 }
-if (n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25) {
+if (n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25) {
     console.log("All four numbers are valid according to the given criteria") // true
 }
 
 // Part-2 Practical Math
+ let TotalDist = 1500;
+ let speed1 = 55; let Dist1 = 30;
+ let speed2 = 60; let Dist2 = 28;
+ let speed3 = 75; let Dist3 = 23;
+ let Budget = 175;
+ let Cost = 3;
+
+ //How many gallons of fuel will you need for the entire trip. 
+//scenario 1:let speed1 = 55; let Dist1 = 30;
+console.log(TotalDist / Dist1); //50
+//scenario 2: let speed2 = 60; let Dist2 = 28;
+console.log(TotalDist / Dist2); //53.57
+//scenario 3:let speed3 = 75; let Dist3 = 23;
+console.log(TotalDist / Dist3); //65.21
+
+
+//Will your budget be enough to cover the fuel expense.
+//scenario 1: Gallons=50 ;cost=3
+console.log( 50 * 3); //150
+//scenario 2: Gallons=53.57 cost =3
+console.log(53.57 * 3); //160.71
+//scenario 3: Gallons=65.21 cost =3
+console.log(65.21 * 3); //195.63
+
+
+//How long will the trip take, in hours.
+//scenario 1: let speed1 = 55; TotalDist =1500;
+console.log(TotalDist / speed1); //27.27
+//scenario 2: let speed2 = 60; TotalDist =1500;
+console.log(TotalDist / speed2); //25
+//scenario 2: let speed2 = 75; TotalDist =1500;
+console.log(TotalDist / speed3); //20
+
+
+
+ 
+ 
+ 
