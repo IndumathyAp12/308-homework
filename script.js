@@ -101,5 +101,5 @@ console.log( Budget1 / speed1 || Budget2 / speed2 || Budget3 / speed3);//2.727
 let price = 2.727
 //Log the results of your calculations using string concatenation or template literals.
 
-const efficientTrip = `${speed1} ${price}`;
-console.log(efficientTrip); // 55 2.727 
+const efficientTrip = `when traveling at a speed of ${speed1} miles per hour at ${Budget1}$ budget makes the most sense for the trip`;
+console.log(efficientTrip); // when traveling at a speed of 55 miles per hour at 150$ budget makes the most sense for the trip
