@@ -77,9 +77,20 @@ const Budget1 = 150;
 const Budget2 = 160.71;
 const Budget3 = 195.63;
 
+if ( Budget1 <= Budget ) {
+    console.log( "Budget1 is efficient" )
+}
+if ( Budget2 <= Budget) {
+    console.log("Budget2 is efficient" )
+}
+if ( Budget3 <= Budget) {
+    console.log("Budget3 is efficient")
+}
+
 // when travelled at speed 55, budget is 150 so to calculate efficiency of this trip 
 console.log( Budget1 / speed1); // price per gallon =2.72
 // when travelled at speed 60 , budget is 160.71
 console.log(Budget2 / speed2); // price per gallon =2.678
 //when travelled at speed 75, budget is 195.63
 console.log(Budget3 / speed3); // price per gallon = 2.608
+
