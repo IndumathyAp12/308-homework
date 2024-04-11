@@ -44,7 +44,7 @@ if (n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25) {
  let Budget = 175;
  let Cost = 3;
 
- //How many gallons of fuel will you need for the entire trip. 
+ //How many gallons of fuel will you need for the entire trip of Total Dist=1500. 
 //scenario 1:let speed1 = 55; let Dist1 = 30;
 console.log(TotalDist / Dist1); //50
 //scenario 2: let speed2 = 60; let Dist2 = 28;
@@ -53,8 +53,8 @@ console.log(TotalDist / Dist2); //53.57
 console.log(TotalDist / Dist3); //65.21
 
 
-//Will your budget be enough to cover the fuel expense.
-//scenario 1: Gallons=50 ;cost=3
+//Will your budget be enough to cover the fuel expense when Budget =175.
+//scenario 1: Gallons=50 ;cost=3 per gallon.
 console.log( 50 * 3); //150
 //scenario 2: Gallons=53.57 cost =3
 console.log(53.57 * 3); //160.71
@@ -70,7 +70,22 @@ console.log(TotalDist / speed2); //25
 //scenario 2: let speed2 = 75; TotalDist =1500;
 console.log(TotalDist / speed3); //20
 
+//Compare the results when traveling at an average of 55, 60, and 75 miles per hour.
+// Which makes the most sense for the trip?
 
+const Budget1 = 150;
+const Budget2 = 160.71;
+const Budget3 = 195.63;
+
+const BestBudget = Budget1 < Budget2 && Budget1 < Budget3;
+console.log(`Budget Efficient : ${Budget1}`); // Budget 1 is efficient
+
+const Time1 = 27.27;
+const Time2 = 25;
+const Time3 = 20;
+
+const BestTime = Time1 > Time2 && Time2 > Time3;
+console.log(`Efficient Time: ${Time3}`); // Time 3 is efficient
 
  
  
